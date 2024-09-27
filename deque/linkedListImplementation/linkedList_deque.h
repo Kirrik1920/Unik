@@ -2,18 +2,8 @@
 #define LINKEDLIST_DEQUE_H
 
 #include "../deque.h"
+#include "../../node/node.h"
 #include <stdexcept>
-
-
-template <typename T>
-class Node {
-public:
-    T value;
-    Node* next;
-    Node* prev;
-
-    Node(const T& value);
-};
 
 
 template <typename T>

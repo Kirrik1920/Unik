@@ -1,8 +1,7 @@
-#include "linkedlist_deque.h"
+#include "linkedList_deque.h"
+#include "../../node/node.h"
 
-// Node constructor
-template <typename T>
-Node<T>::Node(const T& value) : value(value), next(nullptr), prev(nullptr) {}
+
 
 // LinkedListDeque constructor
 template <typename T>

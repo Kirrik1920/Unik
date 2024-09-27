@@ -4,7 +4,7 @@
 #include "../stack/stack.h"
 #include "../queue/queue.h"
 
-// Deque interface implementing both Stack and Queue
+
 template <typename T>
 class Deque : public Stack<T>, public Queue<T> {
 public:

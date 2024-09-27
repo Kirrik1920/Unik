@@ -1,10 +1,32 @@
 #include <iostream>
 #include "./deque/arrayImplementation/array_deque.h"
 #include "./deque/linkedListImplementation/linkedList_deque.h"
+
+#include "./queue/arrayImplementation/array_queue.h"
+#include "./queue/linkedListImplementation/linkedList_queue.h"
 using namespace std;
 int main() {
 
 
+    ArrayQueue<int> arrayQueue(5);
+    arrayQueue.enqueue(10);
+    arrayQueue.enqueue(20);
+    arrayQueue.enqueue(30);
+    std::cout << "Array Queue Front: " << arrayQueue.front() << std::endl;
+    std::cout << "Array Queue Dequeue: " << arrayQueue.dequeue() << std::endl;
+
+
+    cout << "----------------------------------------" << endl;
+
+    LinkedListQueue<int> linkedListQueue;
+    linkedListQueue.enqueue(40);
+    linkedListQueue.enqueue(50);
+    linkedListQueue.enqueue(60);
+    std::cout << "LinkedList Queue Front: " << linkedListQueue.front() << std::endl;
+    std::cout << "LinkedList Queue Dequeue: " << linkedListQueue.dequeue() << std::endl;
+
+
+    cout << "----------------------------------------" << endl;
 
 
     ArrayDeque<int> deque;
