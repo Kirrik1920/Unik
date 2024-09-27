@@ -4,9 +4,32 @@
 
 #include "./queue/arrayImplementation/array_queue.h"
 #include "./queue/linkedListImplementation/linkedList_queue.h"
+
+#include "./stack/arrayImplementation/array_stack.h"
+#include "./stack/linkedListImplementation/linkedList_stack.h"
+
 using namespace std;
 int main() {
 
+
+
+    ArrayStack<int> arrayStack(5);
+    arrayStack.push(10);
+    arrayStack.push(20);
+    arrayStack.push(30);
+    std::cout << "Array Stack Top: " << arrayStack.top() << std::endl;
+    std::cout << "Array Stack Pop: " << arrayStack.pop() << std::endl;
+
+    cout << "----------------------------------------" << endl;
+
+    LinkedListStack<int> linkedListStack;
+    linkedListStack.push(40);
+    linkedListStack.push(50);
+    linkedListStack.push(60);
+    std::cout << "LinkedList Stack Top: " << linkedListStack.top() << std::endl;
+    std::cout << "LinkedList Stack Pop: " << linkedListStack.pop() << std::endl;
+
+    cout << "----------------------------------------" << endl;
 
     ArrayQueue<int> arrayQueue(5);
     arrayQueue.enqueue(10);
