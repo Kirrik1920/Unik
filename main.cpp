@@ -1,12 +1,12 @@
 #include <iostream>
-#include "./deque/arrayImplementation/array_deque.h"
-#include "./deque/linkedListImplementation/linkedList_deque.h"
+#include "./lab_1_1/deque/arrayImplementation/array_deque.h"
+#include "./lab_1_1/deque/linkedListImplementation/linkedList_deque.h"
 
-#include "./queue/arrayImplementation/array_queue.h"
-#include "./queue/linkedListImplementation/linkedList_queue.h"
+#include "./lab_1_1/queue/arrayImplementation/array_queue.h"
+#include "./lab_1_1/queue/linkedListImplementation/linkedList_queue.h"
 
-#include "./stack/arrayImplementation/array_stack.h"
-#include "./stack/linkedListImplementation/linkedList_stack.h"
+#include "./lab_1_1/stack/arrayImplementation/array_stack.h"
+#include "./lab_1_1/stack/linkedListImplementation/linkedList_stack.h"
 
 using namespace std;
 int main() {
