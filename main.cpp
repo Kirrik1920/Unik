@@ -20,7 +20,7 @@ int main() {
     std::cout << "Array Stack Top: " << arrayStack.top() << std::endl;
     std::cout << "Array Stack Pop: " << arrayStack.pop() << std::endl;
 
-    cout << "----------------------------------------" << endl;
+    cout << "-------------------------------------" << endl;
 
     LinkedListStack<int> linkedListStack;
     linkedListStack.push(40);
